@@ -5,3 +5,4 @@ http:
 
 frontend:
 
+input_number: !include_dir_named input_numbers
