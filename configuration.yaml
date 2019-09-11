@@ -1,2 +1,7 @@
 homeassistant: !include core.yaml
 
+http:
+  server_port: !secret settings_server_port
+
+frontend:
+
