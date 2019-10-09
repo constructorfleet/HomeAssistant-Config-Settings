@@ -6,6 +6,8 @@ homeassistant:
   time_zone: !secret home_timezone
   name: Settings
 
+http:
+
 frontend:
 
 input_number: !include_dir_named input_numbers
