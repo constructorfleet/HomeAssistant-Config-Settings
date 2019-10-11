@@ -10,5 +10,7 @@ http:
 
 frontend:
 
+view_event:
+
 input_number: !include_dir_named input_numbers
 input_boolean: !include_dir_named input_booleans
