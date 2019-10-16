@@ -16,6 +16,8 @@ http:
 
 frontend:
 
+config:
+
 view_event:
 
 input_number: !include_dir_named input_numbers
