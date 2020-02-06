@@ -19,8 +19,7 @@ view_event:
   components: []
 
 http:
-  base_url: https://automation.prettybaked.com
-  server_port: !secret settings_server_public_port
+  base_url: http://settings.constructorfleet.io
   
 frontend:
 
@@ -28,3 +27,7 @@ config:
 
 input_number: !include_dir_named input_numbers
 input_boolean: !include_dir_named input_booleans
+
+mqtt: !include mqtt.yaml
+mqtteventstream: !include eventstream.yaml
+#mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
