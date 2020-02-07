@@ -24,6 +24,8 @@ http:
 frontend:
 
 config:
+  # Templates
+binary_sensor: !include_dir_list binary_sensors
 
 input_number: !include_dir_named input_numbers
 input_boolean: !include_dir_named input_booleans
