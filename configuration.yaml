@@ -19,7 +19,7 @@ view_event:
   components: []
 
 http:
-  base_url: http://settings.constructorfleet.io
+  base_url: https://settings.automation.home.prettybaked.com
   
 frontend:
 
