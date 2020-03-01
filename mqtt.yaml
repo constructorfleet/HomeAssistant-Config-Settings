@@ -1,2 +1,2 @@
 broker: mqtt
-client_id: media
+client_id: settings
