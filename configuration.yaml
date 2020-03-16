@@ -14,9 +14,7 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-view_event:
-  name: settings
-  components: []
+view_event: !include view_event.yaml
 
 http:
   base_url: https://settings.automation.home.prettybaked.com
@@ -30,4 +28,3 @@ input_boolean: !include_dir_named input_booleans
 
 mqtt: !include mqtt.yaml
 mqtteventstream: !include eventstream.yaml
-#mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
