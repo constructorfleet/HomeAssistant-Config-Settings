@@ -1,2 +1,21 @@
 broker: mqtt
 client_id: settings
+birth_message:
+  topic: events/slaves/settings/instance_state
+  qos: 1
+  retain: true
+  payload: >
+    {
+      "event_type": "instance_state.connected"
+      "event_data": "settings"
+    }
+will_message:
+  birth_message:
+  topic: events/slaves/settings/instance_state
+  qos: 1
+  retain: true
+  payload: >
+    {
+      "event_type": "instance_state.disconnected"
+      "event_data": "settings"
+    }
