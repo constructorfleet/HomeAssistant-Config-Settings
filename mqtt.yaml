@@ -1,4 +1,4 @@
-broker: mqtt
+broker: automation_mqtt
 client_id: settings
 birth_message:
   topic: events/slaves/settings/instance_state
